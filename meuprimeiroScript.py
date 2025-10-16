@@ -1,7 +1,6 @@
-print("qual seu nome ")
-nome = input()
-print("qual a data de nascimento ")
-data de nascimento = input()
- 
-print("qual a cidade que nasceu ")
-cidade = input()    
+NOME = input("Qual o seu nome? ")
+NASCIMENTO = input("Qual o seu ano de nascimento? ")
+IDADE = 2024 - int( NASCIMENTO)
+CIDADE = input("Qual a sua cidade? ")
+print("Olá", NOME, "você tem", IDADE, "anos.","VOCE NASCEU EM ",CIDADE,)
+print("Olá {} você tem {} anos. VOCE NASCEU EM {}".format(NOME, IDADE, CIDADE))
